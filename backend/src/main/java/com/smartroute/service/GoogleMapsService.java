@@ -16,7 +16,7 @@ import jakarta.annotation.PreDestroy;
 public class GoogleMapsService {
 
     @Value("${google.maps.api-key}")
-    private String apiKey;
+    private String apiKey;    
 
     private GeoApiContext context;
 
