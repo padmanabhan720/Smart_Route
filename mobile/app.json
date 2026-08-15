@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "MapNav",
+    "slug": "mapnav",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#2A6FDB"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.mapnav",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "MapNav uses your location to calculate routes and show nearby alerts."
+      }
+    },
+    "android": {
+      "package": "com.yourcompany.mapnav",
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    }
+  }
+}
