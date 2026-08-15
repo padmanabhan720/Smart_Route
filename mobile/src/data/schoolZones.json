@@ -1,0 +1,29 @@
+[
+  {
+    "id": "zone_001",
+    "name": "Example Elementary School",
+    "type": "school",
+    "latitude": 39.7392,
+    "longitude": -104.9903,
+    "radiusMeters": 200,
+    "speedLimitMph": 20,
+    "activeDays": [1, 2, 3, 4, 5],
+    "windows": [
+      ["07:15", "08:15"],
+      ["14:45", "15:45"]
+    ]
+  },
+  {
+    "id": "zone_002",
+    "name": "Example General Hospital",
+    "type": "hospital",
+    "latitude": 39.7500,
+    "longitude": -104.9950,
+    "radiusMeters": 150,
+    "speedLimitMph": 25,
+    "activeDays": [0, 1, 2, 3, 4, 5, 6],
+    "windows": [
+      ["00:00", "23:59"]
+    ]
+  }
+]
